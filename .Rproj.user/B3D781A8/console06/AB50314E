@@ -17,4 +17,9 @@ Username for 'https://github.com': ^C
 fatal: remote origin already exists.
 ]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ git remote add origin https://github.com/Harksoul/expo_repo.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Ppush -u origin master
 fatal: cannot run rpostback-askpass: No such file or directory
-Username for 'https://github.com': 
+Username for 'https://github.com': HArks    arksoul
+fatal: cannot run rpostback-askpass: No such file or directory
+Password for 'https://Harksoul@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Harksoul/expo_repo.git/'
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ 

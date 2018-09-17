@@ -63,6 +63,5 @@ ggplot(data = data, aes(x = as.factor(week), y = value, color = group)) + geom_b
     y = "Value",
     caption = "Data offered by Jeff"
   )
-
 ```
 

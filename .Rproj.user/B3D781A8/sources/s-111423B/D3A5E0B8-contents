@@ -1,0 +1,68 @@
+---
+title: "hj2479_solution"
+author: "He Jin"
+date: "6/26/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(purrr)
+library(janitor)
+library(tidyverse)
+library(ggplot2)
+library(stringr)
+```
+###1 Import and tidy data
+```{r}
+setwd("/Users/Harksoul/Desktop/Columbia/Summer/TA application/ta_audtion/Desktop/ta_audtion/data")
+list = list.files(path = "./data")
+
+# build function 
+combine = function(path){ 
+    df = read.csv(path) %>% 
+    janitor::clean_names()
+  df$name = substr(path,1,6) # eliminate the postfix, select the character
+  df
+}
+#combine("con_01.csv")
+
+data = map_df(list,combine) %>%  # iterate
+  mutate(group = substr(name,1,3)) %>% 
+  select(name,group,everything()) %>% # make the variable in order
+  gather(key = week, value = value, week_1:week_8) %>% # stop here at the first time
+  mutate(week = as.numeric(substr(week,6,6)))
+```
+###2 Make a plot of each subject over 8 weeks
+```{r,message=FALSE}
+# Observed values for each subject in control group over 8 weeks
+ggplot(data = subset(data, group == "con"), aes(x = week, y = value, color = name)) + geom_smooth(se = FALSE) + facet_grid(. ~ name)
+
+# Observed values for each subject in experimental group over 8 weeks
+ggplot(data = subset(data, group == "exp"), aes(x = week, y = value, color = name)) + geom_smooth(se = FALSE) + facet_grid(. ~ name)
+
+```
+
+###3 Summarize week-by-week observations for both groups
+```{r,message=FALSE}
+data_1 = data %>%
+  group_by(group,week) %>%
+  summarize(mean = mean(value),
+            sd = sd(value),
+            median = median(value))
+head(data_1)
+
+#line 
+ggplot(data = data_1, aes(x = week, y = mean, color = group)) + geom_smooth(se = TRUE)
+
+#boxplot
+ggplot(data = data, aes(x = as.factor(week), y = value, color = group)) + geom_boxplot() + 
+  labs(
+    title = "Week-by-Week Summary",
+    x = "Week",
+    y = "Value",
+    caption = "Data offered by Jeff"
+  )
+
+```
+

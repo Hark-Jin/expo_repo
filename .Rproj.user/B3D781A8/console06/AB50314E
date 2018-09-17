@@ -1,0 +1,20 @@
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtion[?1034hHarksoulMacBook-Pro:ta_audtion Harksoul$ [KHarksoulMacBook-Pro:ta_audtion Harksoul$ git remote add origin https://github.com/Harksoul/expo_repo.git
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ git push -u origin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': ^C
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ cd [K[K[Kcd /Users/Harksoul/Desktop/Columbia/Semester 3/TA application/ta_audtion [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kn
+bash: cd: /Users/Harksoul/Desktop/Columbia/Semester: No such file or directory
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ cd /Users/Harksoul/Desktop/Columbia/Semester 3/TA application/ta_audtion [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd /Users/Harksoul/Desktop/Columbia/Semester 3/TA application/ta_audtion [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: cd: Users/Harksoul/Desktop/Columbia/Semester: No such file or directory
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ cd [K[K[K/Users/Harksoul/Desktop/Columbia/Semester 3/TA application/ta_audtion[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote add origin https://github.com/Harksoul/expo_repo.git
+fatal: remote origin already exists.
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ git push -u origin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': ^C
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ git push -u origin masterremote add origin https://github.com/Harksoul/expo_repo.git
+fatal: remote origin already exists.
+]0;~/Desktop/Columbia/Semester 3/TA application/ta_audtionHarksoulMacBook-Pro:ta_audtion Harksoul$ git remote add origin https://github.com/Harksoul/expo_repo.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[38Ppush -u origin master
+fatal: cannot run rpostback-askpass: No such file or directory
+Username for 'https://github.com': 
